@@ -290,6 +290,7 @@ dependencies {
 
     // implementation libs.firebaseAnalytics
     // implementation libs.firebaseCrashlytics
+    implementation 'com.google.guava:guava:32.1.3-android'
 
     implementation (libs.persianJodaTime) {
         exclude group: "com.android.support"
