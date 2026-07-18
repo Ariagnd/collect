@@ -404,10 +404,10 @@ dependencies {
     }
 
     // Real LeakCanary for debug and selfSigned builds only: notifications, analysis, etc
-    debugImplementation libs.leakcanary
+    // debugImplementation libs.leakcanary
     debugImplementation(libs.androidXComposeTooling)
     debugImplementation(libs.androidXComposeUiTestManifest)
-    selfSignedReleaseImplementation libs.leakcanary
+    // selfSignedReleaseImplementation libs.leakcanary
 }
 
 // Must be at bottom to prevent dependency collisions
