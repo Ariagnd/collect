@@ -288,8 +288,8 @@ dependencies {
     implementation libs.playServicesLocation
     implementation libs.playServicesOssLicenses
 
-    implementation libs.firebaseAnalytics
-    implementation libs.firebaseCrashlytics
+    // implementation libs.firebaseAnalytics
+    // implementation libs.firebaseCrashlytics
 
     implementation (libs.persianJodaTime) {
         exclude group: "com.android.support"
@@ -411,8 +411,8 @@ dependencies {
 
 // Must be at bottom to prevent dependency collisions
 // https://developers.google.com/android/guides/google-services-plugin
-apply plugin: 'com.google.gms.google-services'
+// apply plugin: 'com.google.gms.google-services'
 
 // Must be after google-services to prevent build failure
 // https://stackoverflow.com/a/67995305
-apply plugin: 'com.google.firebase.crashlytics'
+// apply plugin: 'com.google.firebase.crashlytics'
