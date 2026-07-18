@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryLight">#3e9fcc</color>
+    <!-- Light Mode - Modern Professional -->
+    <color name="colorPrimaryLight">#0F5F8B</color>
     <color name="colorOnPrimaryLight">#ffffff</color>
-    <color name="colorPrimaryContainerLight">#bfe9ff</color>
-    <color name="colorOnPrimaryContainerLight">#001f2a</color>
-    <color name="colorSurfaceLight">#ffffff</color>
-    <color name="colorOnSurfaceLight">#001f2a</color>
-    <color name="colorSurfaceContainerHighestLight">#f2f2f2</color>
+    <color name="colorPrimaryContainerLight">#D6EAF5</color>
+    <color name="colorOnPrimaryContainerLight">#0F172A</color>
+    <color name="colorSurfaceLight">#FFFFFF</color>
+    <color name="colorOnSurfaceLight">#0F172A</color>
+    <color name="colorSurfaceContainerHighestLight">#F1F5F9</color>
 
-    <color name="colorPrimaryDark">#4cbcf0</color>
-    <color name="colorOnPrimaryDark">#003547</color>
-    <color name="colorPrimaryContainerDark">#004d65</color>
-    <color name="colorOnPrimaryContainerDark">#bfe9ff</color>
-    <color name="colorSurfaceDark">#001117</color>
-    <color name="colorOnSurfaceDark">#d3e5ef</color>
-    <color name="colorSurfaceContainerHighestDark">#162f3b</color>
+    <!-- Dark Mode - Modern Professional -->
+    <color name="colorPrimaryDark">#5EB4E1</color>
+    <color name="colorOnPrimaryDark">#0F172A</color>
+    <color name="colorPrimaryContainerDark">#164560</color>
+    <color name="colorOnPrimaryContainerDark">#D6EAF5</color>
+    <color name="colorSurfaceDark">#0F172A</color>
+    <color name="colorOnSurfaceDark">#F1F5F9</color>
+    <color name="colorSurfaceContainerHighestDark">#1E293B</color>
 </resources>
